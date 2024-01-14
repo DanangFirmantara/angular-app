@@ -1,29 +1,27 @@
+h1{
+    font-size: 4rem;
+}
 section {
-    padding : 1rem 5rem
+    padding : 1rem 5rem;
 }
-.ball{
-    position: absolute;
-    width: 60px;
-    height: 30px;
-    border-radius: 100%;
-    background-color: var(--primary-color);
-    left: 10px;
-    top: 10px;
+p{
+    color: #444;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    font-family: inherit;
 }
-
 .container{
-    border: solid 5px red;
-    position: relative;
-
-}
-.row{
-    display: flex;
-    justify-content: center;
-}
-
-.col{
-    margin: 5px;
-    border: solid 2px blue;
-    padding: 10px;
+    box-shadow: 5px 5px 25px var(--shadow-color);
+    padding: 1rem;
     border-radius: 8px;
+    margin-top: 10px;
+}
+a{
+    text-decoration:unset;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+html{
+    scroll-behavior: smooth;
 }

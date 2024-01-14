@@ -6,6 +6,11 @@
 
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--text-color);
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -13,4 +18,5 @@ body {
     --secondary-color: #8B89E6;
     --accent-color: #e8e7fa;
     --shadow-color: #E8E8E8;
+    --text-color:#444;
 }
