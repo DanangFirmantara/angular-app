@@ -3,6 +3,14 @@
     <a [routerLink]="['/']">
       <img class="brand-logo" src="../assets/logo.svg" alt="logo" aria-hidden="true">
     </a>
+    <div class="row">
+      <a [routerLink]="['/about']" class="nav-item">
+        <div >About</div>
+      </a>
+      <a [routerLink]="['/fill-dots']" class="nav-item">
+        <div >Fill Dots</div>
+      </a>
+    </div>
   </header>
   <section>
     <router-outlet></router-outlet>
